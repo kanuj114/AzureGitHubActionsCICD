@@ -1,0 +1,1 @@
+Connection_string : "Server=tcp:githubcicdserver.database.windows.net,1433;Initial Catalog=GitHubCICDDB;Persist Security Info=False;User ID=githubAdmin;Password=Kanuj@5824;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"

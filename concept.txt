@@ -1,0 +1,70 @@
+-> Can you explain what is GitHub Actions.
+Ans:
+    GitHub Actions is a CI/CD (Continuous Integration / Continuous Deployment) service built into GitHub.
+    It allows you to automate software development workflows (build, test, deploy, release, etc.) directly 
+    from your repository.
+
+-> what is workflow of GitHub Actions(pipeline)... It has own worker process
+-> Can you explain the GitHub Architecture.
+-> Can you show the .yaml file where we applied CI/CD.
+-> Application
+   GitHub Actions(major features of GitHub)
+   workflow(pipeline)
+   CI/CD
+   worker process(by default provided by GitHub Actions)
+   Deployed on Azure WebApp/ Azure functions
+
+Note : 2-3 sessions to cover key vault features
+
+-> Pre-Requisite:
+    Azure Service Bus Architecture
+
+[ Developer Pushes Code ]
+             │
+             ▼
+[ GitHub detects Event ]
+             │
+             ▼
+[ Workflow (.yml) Triggers ]
+             │
+             ▼
+[ GitHub schedules Jobs ]
+             │
+   ┌─────────┴─────────┐
+   ▼                   ▼
+GitHub-Hosted Runner   Self-Hosted Runner
+ (GitHub Cloud VM)      (Your Machine/VM)
+             │
+             ▼
+[ Steps Executed: checkout, build, test, deploy ]
+
+Note :
+
+🔹 Key Concepts
+
+1. Workflow – An automated process defined in a YAML file (.github/workflows/*.yml) in your repo.
+2. Job – A set of steps executed on the same runner. A workflow may have multiple jobs.
+3. Step – An individual task (e.g., run a command, use an action).
+4. Action – A reusable piece of code (like plugins).
+5. Runner – A server/machine where workflows run.
+
+GitHub-hosted runner → managed by GitHub.
+
+Introduction to xUnit
+
+- CI/CD pipelines with Jenkins, GitHub Actions, DevOps, Docker, Kubernetes
+- Hands-on with SonarQube.
+
+Case Study 1
+
+- Library application needs to be referenced in xUnit application.
+- xUnit application needs to be referenced in API application.
+
+Case Study 2
+
+Concept of Deployment Centre
+
+- Authenticate and authorize between DevOps and Azure subscription.
+- Deployment Group: On-agent IIS and Azure ACR as bridge.
+
+- Multistage YAML → Either separate the build and release.

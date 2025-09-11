@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dK1kKa/rGrwtxgpe8VTmlT/FbZ1EdKhAWLpJ7WKEaAk=",
+  "Source": "GitHubCICD",
+  "BasePath": "_content/GitHubCICD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
