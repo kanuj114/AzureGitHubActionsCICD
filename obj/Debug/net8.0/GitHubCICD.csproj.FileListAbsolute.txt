@@ -135,3 +135,4 @@ D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\refint\GitHubCICD.dll
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.pdb
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.genruntimeconfig.cache
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\ref\GitHubCICD.dll
+D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.sourcelink.json
